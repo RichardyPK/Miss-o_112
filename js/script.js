@@ -2,7 +2,7 @@ const botaoGravador = document.getElementById("btn-gravador");
 const statusGravacao = document.getElementById("status-gravacao");
 
 
-// COMPUTADOR - quando segura o clique
+// computador quando segura o clique
 botaoGravador.addEventListener("mousedown", function() {
     botaoGravador.style.backgroundColor = "red";
     botaoGravador.textContent = "🔴 Gravando...";
@@ -10,7 +10,7 @@ botaoGravador.addEventListener("mousedown", function() {
 });
 
 
-// COMPUTADOR - quando solta o clique
+// computador quando solta o clique
 botaoGravador.addEventListener("mouseup", function() {
     botaoGravador.style.backgroundColor = "";
     botaoGravador.textContent = "🎤 Clique e Segure para Gravar";
@@ -18,7 +18,7 @@ botaoGravador.addEventListener("mouseup", function() {
 });
 
 
-// CELULAR - quando coloca o dedo
+// celular quando coloca o dedo
 botaoGravador.addEventListener("touchstart", function() {
     botaoGravador.style.backgroundColor = "red";
     botaoGravador.textContent = "🔴 Gravando...";
@@ -26,7 +26,7 @@ botaoGravador.addEventListener("touchstart", function() {
 });
 
 
-// CELULAR - quando tira o dedo
+// celular quando tira o dedo
 botaoGravador.addEventListener("touchend", function() {
     botaoGravador.style.backgroundColor = "";
     botaoGravador.textContent = "🎤 Clique e Segure para Gravar";
