@@ -1,11 +1,40 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
+  "name": "Simulador de Gravador de Áudio",
+  "short_name": "Gravador",
+  "description": "Simule a gravação de áudio com um clique e segure.",
+  "start_url": "/Miss-o_112/",
+"scope": "/Miss-o_112/",
+  "id": "/Miss-o_112/",
   "display": "standalone",
-  "name": "richardypk.github",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "richardypk.github",
-  "start_url": "/",
-  "theme_color": "#ffffff"
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "lang": "pt-BR",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/Miss-o_112/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/Miss-o_112/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+
+    },
+    {
+      "src": "/Miss-o_112/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/Miss-o_112/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
